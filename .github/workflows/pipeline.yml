@@ -24,11 +24,11 @@ jobs:
         depth: 1
         branch: 'main'
         owner: 'dlysenko6745'
-        repository: 'ec2'
+        repository: 'vpc'
 
     - name: Access cloned repo
       run: |
-         cd ec2
+         cd vpc
          ls -la
     
     - name: Configure AWS credentials
