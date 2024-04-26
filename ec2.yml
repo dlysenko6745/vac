@@ -5,6 +5,6 @@
   tasks:
   - name: create key pair using provided key_material
     amazon.aws.ec2_key:
-      name: diana
-      key_material: 'ssh-rsa AAAAxyz...== me@example.com'
+      name: ansible-diana
+      key_material: 'Diana'
       
